@@ -1,7 +1,5 @@
 # Optical-Character-Recognition
 
-# Optical-Character-Recognition
-
 ## Overview
 This project advances Optical Character Recognition (OCR) technology by extracting textual content from images through state-of-the-art machine learning and computer vision techniques. The goal is to accurately convert written text into a machine-readable format, facilitating a wide range of applications from document digitization to automated data entry.
 
