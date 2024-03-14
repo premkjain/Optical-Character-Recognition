@@ -37,9 +37,8 @@ These preprocessing steps are designed to enhance the quality and clarity of the
 To set up the project environment, follow these steps:
 1. Clone the project repository to your local machine.
    
-        ```
         git clone https://github.com/premkjain/Optical-Character-Recognition.git
-        ```
+        
 2. Open a terminal and navigate to the project directory.
 3. Ensure Python is installed on your system. If not, download and install it from [python.org](https://www.python.org/downloads/).
 4. Install the required Python dependencies.
