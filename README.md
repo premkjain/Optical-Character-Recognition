@@ -13,6 +13,9 @@ In this project, we explore three core machine learning models, each offering un
 
 - **Support Vector Machine (SVM)**: A powerful, versatile machine learning model capable of performing linear or nonlinear classification, regression, and even outlier detection. It is particularly suited for complex text recognition tasks with high-dimensional data.
 
+- **Gaussian Mixture Model (GMM)**: A probabilistic model that assumes all the data points are generated from a mixture of a finite number of Gaussian distributions with unknown parameters. GMM is especially adept at handling cases where the data involves multiple subpopulations, each of which can be modeled by a Gaussian distribution. This model is beneficial for OCR when dealing with varied text styles and densities, as it can adaptively segment different text features based on their statistical properties.
+
+
 The dataset fueling our models' training and evaluation is the Standard OCR Dataset, which can be found on Kaggle: [Standard OCR Dataset](https://www.kaggle.com/datasets/preatcher/standard-ocr-dataset). This dataset provides a robust foundation for developing and testing OCR technologies.
 
 ## Preprocessing
@@ -44,7 +47,7 @@ To set up the project environment, follow these steps:
 Execute the `main.ipynb` notebook to walk through the OCR process. This notebook guides you through exploratory data analysis, model training, evaluation, and making predictions. It serves as the entry point for understanding and interacting with the OCR system.
 
 ## Models
-Within the `Models` directory, you will find notebooks detailing the implementation and usage of specific OCR models, including Random Forest, KNN, and SVM. These documents offer insights into model selection, training, and performance evaluation.
+Within the `Models` directory, you will find notebooks detailing the implementation and usage of specific OCR models, including Random Forest, KNN, SVM and GMM. These documents offer insights into model selection, training, and performance evaluation.
 
 ## Basic EDA
 The `Basic_EDA.ipynb` notebook performs an exploratory analysis of the OCR dataset. It illustrates the dataset's structure, visualizes sample images, and outlines initial preprocessing steps, providing a foundational understanding of the data handling process.
