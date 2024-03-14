@@ -36,6 +36,7 @@ These preprocessing steps are designed to enhance the quality and clarity of the
 ## Installation
 To set up the project environment, follow these steps:
 1. Clone the project repository to your local machine.
+   
         ```
         git clone https://github.com/premkjain/Optical-Character-Recognition.git
         ```
